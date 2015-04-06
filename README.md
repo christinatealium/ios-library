@@ -251,3 +251,8 @@ Questions or comments?
 - 4.0.1 Fixed bug in autotracking performance optimizations, disable & enable call fixes, manual track calls firing as expected with event call type overrides
 
 **********************
+
+
+--------------------------------------------
+
+Copyright (C) 2012-2015, Tealium Inc.
