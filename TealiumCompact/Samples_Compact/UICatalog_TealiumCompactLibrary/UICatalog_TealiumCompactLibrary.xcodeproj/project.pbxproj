@@ -502,6 +502,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UICatalog/UICatalog_TealiumCompactLibrary-Prefix.pch";
 				INFOPLIST_FILE = "UICatalog/UICatalog_TealiumCompactLibrary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = UICatalog_TealiumCompactLibrary;
 				WRAPPER_EXTENSION = app;
@@ -521,6 +522,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UICatalog/UICatalog_TealiumCompactLibrary-Prefix.pch";
 				INFOPLIST_FILE = "UICatalog/UICatalog_TealiumCompactLibrary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = UICatalog_TealiumCompactLibrary;
 				WRAPPER_EXTENSION = app;

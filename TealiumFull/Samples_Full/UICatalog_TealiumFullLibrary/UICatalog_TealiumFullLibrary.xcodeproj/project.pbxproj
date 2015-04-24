@@ -506,6 +506,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UICatalog/UICatalog_TealiumFullLibrary-Prefix.pch";
 				INFOPLIST_FILE = "UICatalog/UICatalog_TealiumFullLibrary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = (
 					"-objC",
 					"-all_load",
@@ -528,6 +529,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UICatalog/UICatalog_TealiumFullLibrary-Prefix.pch";
 				INFOPLIST_FILE = "UICatalog/UICatalog_TealiumFullLibrary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = (
 					"-objC",
 					"-all_load",

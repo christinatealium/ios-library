@@ -1,4 +1,4 @@
-Tealium iOS Library - 4.1.4 & 4.1.4c
+Tealium iOS Library - 4.1.5 & 4.1.5c
 ====================================
 
 **********************
@@ -263,6 +263,8 @@ Questions or comments?
 - 3.1   Import header renamed to ``<TealiumLibrary/Tealium.h>``
 
 ####Recent Code Updates
+- 4.1.5 Custom data for object now returns a proper dictionary in the Compact Library
+- 4.1.5 Improved dispatch processing speed and reduced memory pressure
 - 4.1.4 Fixed crash in mobile publish settings parsing
 - 4.1.3 Duplicate suppression fixed
 - 4.1.3 Datasource updates
