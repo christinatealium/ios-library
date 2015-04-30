@@ -1,4 +1,4 @@
-Tealium iOS Library - 4.1.5 & 4.1.5c
+Tealium iOS Library - 4.1.6 & 4.1.6c
 ====================================
 
 **********************
@@ -250,7 +250,7 @@ Questions or comments?
 ### UPGRADE NOTICE ###
 
 ####New Features
-- 4.1.3 URL requests use NSURLSession for targets using iOS 7 and above.
+- 4.1.3 URL requests use NSURLSession for targets using iOS 7 and above
 - 4.1.1 Remove custom data APIs added
 - 4.1   [Tag Bridge API](../../wiki/features#tag-bridge-api) added
 - 4.1   Swift Bridging Header provided
@@ -261,8 +261,10 @@ Questions or comments?
 - 3.2   [Audience Stream Trace](../../wiki/advanced-guide#audiencestream-trace) support added
 - 3.1   [Class Level Methods](../../wiki/api-4.x#class-methods) replaced older shared instance calls
 - 3.1   Import header renamed to ``<TealiumLibrary/Tealium.h>``
-
+ 
 ####Recent Code Updates
+- 4.1.6 Fixed issues preventing crash track calls from processing
+- 4.1.6 Dispatch queue processing/batching refactored, fixed recursion edge cases 
 - 4.1.5 Custom data for object now returns a proper dictionary in the Compact Library
 - 4.1.5 Improved dispatch processing speed and reduced memory pressure
 - 4.1.4 Fixed crash in mobile publish settings parsing
@@ -281,6 +283,10 @@ Questions or comments?
 - 4.0.4 Stability enchancements
 - 4.0.2 & 4.0.3 iOS 8.1 Support and additional performance optimizations
 - 4.0.1 Fixed bug in autotracking performance optimizations, disable & enable call fixes, manual track calls firing as expected with event call type overrides
+
+####Known bugs this version
+- First launch after install: lifecycle_firstlaunchdate data source value is (null) - should be date of that call
+- Call_eventtype: exception (crash) calls are reported as autotracked:false - should be true
 
 **********************
 
