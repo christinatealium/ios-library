@@ -1,4 +1,4 @@
-Tealium iOS Library - 4.1.6 & 4.1.6c
+Tealium iOS Library - 4.1.7 & 4.1.7c
 ====================================
 
 **********************
@@ -263,6 +263,8 @@ Questions or comments?
 - 3.1   Import header renamed to ``<TealiumLibrary/Tealium.h>``
  
 ####Recent Code Updates
+- 4.1.7 Fixed small memory leak in network reachability manager
+- 4.1.7 UIDevice information access now threadsafe
 - 4.1.6 Fixed issues preventing crash track calls from processing
 - 4.1.6 Dispatch queue processing/batching refactored, fixed recursion edge cases 
 - 4.1.5 Custom data for object now returns a proper dictionary in the Compact Library
@@ -285,7 +287,6 @@ Questions or comments?
 - 4.0.1 Fixed bug in autotracking performance optimizations, disable & enable call fixes, manual track calls firing as expected with event call type overrides
 
 ####Known bugs this version
-- First launch after install: lifecycle_firstlaunchdate data source value is (null) - should be date of that call
 - Call_eventtype: exception (crash) calls are reported as autotracked:false - should be true
 
 **********************
