@@ -1,4 +1,4 @@
-Tealium iOS Library - 4.1.7 & 4.1.7c
+Tealium iOS Library - 4.1.8 & 4.1.8c
 ====================================
 
 **********************
@@ -114,7 +114,7 @@ Tealium.initSharedInstance("tealiummobile", profile: "demo", target: "dev", opti
 Your app is now ready to compile and run.  In the console output you should see a variation of:
 
 ```
-2015-04-07 15:44:00.495 UICatalog_TealiumCompactLibrary[3771:1786056] TEALIUM 4.1.3c: Init settings: {
+2015-05-28 10:06:21.078 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Init settings: {
     AccountInfo =     {
         Account = tealiummobile;
         Profile = demo;
@@ -130,32 +130,34 @@ Your app is now ready to compile and run.  In the console output you should see 
         UseHTTPS = 1;
     };
 }
-2015-04-07 15:44:00.496 UICatalog_TealiumCompactLibrary[3771:1786056] TEALIUM 4.1.3c: Initializing...
-2015-04-07 15:44:00.687 UICatalog_TealiumCompactLibrary[3771:1786056] TEALIUM 4.1.3c: Adding new command: _push
-2015-04-07 15:44:00.688 UICatalog_TealiumCompactLibrary[3771:1786056] TEALIUM 4.1.3c: Adding new command: _http
-2015-04-07 15:44:00.691 UICatalog_TealiumCompactLibrary[3771:1786062] TEALIUM 4.1.3c: Network is available.
-2015-04-07 15:44:00.735 UICatalog_TealiumCompactLibrary[3771:1786062] TEALIUM 4.1.3c: App Launch detected.
-2015-04-07 15:44:00.762 UICatalog_TealiumCompactLibrary[3771:1786062] TEALIUM 4.1.3c: Queued auto link dispatch for TealiumLifecycle : launch : 2015-04-07T15:44:00. 1 dispatch queued.
-2015-04-07 15:44:01.135 UICatalog_TealiumCompactLibrary[3771:1786035] TEALIUM 4.1.3c: Connection established with mobile.html at https://tags.tiqcdn.com/utag/tealiummobile/demo/dev/mobile.html?platform=iOS&os_version=8.2&library_version=4.1.3&timestamp_unix=1428446640.
-2015-04-07 15:44:01.328 UICatalog_TealiumCompactLibrary[3771:1786054] TEALIUM 4.1.3c: UTAG found in mobile.html: true
-2015-04-07 15:44:01.328 UICatalog_TealiumCompactLibrary[3771:1786054] TEALIUM 4.1.3c: Initialized.
-2015-04-07 15:44:01.669 UICatalog_TealiumCompactLibrary[3771:1786054] TEALIUM 4.1.3c: UIAutotracking:             ON (ignoring)
-2015-04-07 15:44:01.670 UICatalog_TealiumCompactLibrary[3771:1786054] TEALIUM 4.1.3c: IVar Tracking:              ON (ignoring)
-2015-04-07 15:44:01.670 UICatalog_TealiumCompactLibrary[3771:1786054] TEALIUM 4.1.3c: Batch limit:                1
-2015-04-07 15:44:01.671 UICatalog_TealiumCompactLibrary[3771:1786054] TEALIUM 4.1.3c: Wifi sending only:          OFF
-2015-04-07 15:44:01.671 UICatalog_TealiumCompactLibrary[3771:1786054] TEALIUM 4.1.3c: Battery save feature:       ON
-2015-04-07 15:44:01.672 UICatalog_TealiumCompactLibrary[3771:1786054] TEALIUM 4.1.3c: Offline dispatch cache:     -1
-2015-04-07 15:44:01.672 UICatalog_TealiumCompactLibrary[3771:1786054] TEALIUM 4.1.3c: Queued dispatch expiration: -1
-2015-04-07 15:44:01.673 UICatalog_TealiumCompactLibrary[3771:1786054] TEALIUM 4.1.3c: Mobile Companion:           ON (ignoring)
-2015-04-07 15:44:01.674 UICatalog_TealiumCompactLibrary[3771:1786054] TEALIUM 4.1.3c: Sending 1 queued dispatch.
-2015-04-07 15:44:01.737 UICatalog_TealiumCompactLibrary[3771:1786054] TEALIUM 4.1.3c: Successfully packaged auto link dispatch for TealiumLifecycle : launch : 2015-04-07T15:44:00
+2015-05-28 10:06:21.083 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Initializing...
+2015-05-28 10:06:22.294 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Adding new command: _push
+2015-05-28 10:06:22.294 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Adding new command: _http
+2015-05-28 10:06:22.305 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: App Launch detected.
+2015-05-28 10:06:22.360 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Queued auto link dispatch for TealiumLifecycle : launch : 2015-05-28T10:06:22. 1 dispatch queued.
+2015-05-28 10:06:22.469 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Network is available.
+2015-05-28 10:06:22.624 UICatalog_TealiumCompactLibrary[1208:1724372] TEALIUM 4.1.8c: Connection established with mobile.html at https://tags.tiqcdn.com/utag/tealiummobile/demo/dev/mobile.html?platform=iOS&os_version=8.3&library_version=4.1.8c&timestamp_unix=1432832782.
+2015-05-28 10:06:23.938 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: UTAG found in mobile.html: true
+2015-05-28 10:06:23.939 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Initialized.
+2015-05-28 10:06:24.028 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: UIAutotracking:             ON (ignoring)
+2015-05-28 10:06:24.029 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: IVar Tracking:              ON (ignoring)
+2015-05-28 10:06:24.029 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Batch limit:                1
+2015-05-28 10:06:24.029 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Wifi sending only:          OFF
+2015-05-28 10:06:24.030 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Battery save feature:       ON
+2015-05-28 10:06:24.030 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Offline dispatch cache:     -1
+2015-05-28 10:06:24.030 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Queued dispatch expiration: -1
+2015-05-28 10:06:24.031 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Mobile Companion:           ON (ignoring)
+2015-05-28 10:06:24.031 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Sending 1 queued dispatch.
+2015-05-28 10:06:24.075 UICatalog_TealiumCompactLibrary[1208:1724453] TEALIUM 4.1.8c: Successfully packaged auto link dispatch for TealiumLifecycle : launch : 2015-05-28T10:06:22
+2015-05-28 10:06:24.339 UICatalog_TealiumCompactLibrary[1208:1724479] TEALIUM 4.1.8c: Finished running dispatch queue with 0 remaining dispatches.
+2015-05-28 10:06:24.626 UICatalog_TealiumCompactLibrary[1208:1724482] TEALIUM 4.1.8c: Registering device for remote push notifications...
 ```
 
 Congratulations! You have successfully implemented the Tealium Compact library into your project.  
 
 If you have disabled internet connectivity to test offline caching, you will see a variation of:
 ```
-2015-04-07 15:45:57.407 UICatalog_TealiumCompactLibrary[3779:1786965] TEALIUM 4.1.3c: Init settings: {
+2015-05-28 10:08:12.519 UICatalog_TealiumCompactLibrary[1214:1725071] TEALIUM 4.1.8c: Init settings: {
     AccountInfo =     {
         Account = tealiummobile;
         Profile = demo;
@@ -171,30 +173,30 @@ If you have disabled internet connectivity to test offline caching, you will see
         UseHTTPS = 1;
     };
 }
-2015-04-07 15:45:57.408 UICatalog_TealiumCompactLibrary[3779:1786965] TEALIUM 4.1.3c: Initializing...
-2015-04-07 15:45:57.627 UICatalog_TealiumCompactLibrary[3779:1786965] TEALIUM 4.1.3c: Adding new command: _push
-2015-04-07 15:45:57.628 UICatalog_TealiumCompactLibrary[3779:1786965] TEALIUM 4.1.3c: Adding new command: _http
-2015-04-07 15:45:57.632 UICatalog_TealiumCompactLibrary[3779:1786965] TEALIUM 4.1.3c: Network is not available.
-2015-04-07 15:45:57.719 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: NO INTERNET connection detected.
-2015-04-07 15:45:57.719 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: Trying to reconnect (attempt 1 of 3)...
-2015-04-07 15:45:58.841 UICatalog_TealiumCompactLibrary[3779:1786963] TEALIUM 4.1.3c: NO INTERNET connection detected.
-2015-04-07 15:45:58.842 UICatalog_TealiumCompactLibrary[3779:1786963] TEALIUM 4.1.3c: Trying to reconnect (attempt 2 of 3)...
-2015-04-07 15:45:59.963 UICatalog_TealiumCompactLibrary[3779:1786968] TEALIUM 4.1.3c: NO INTERNET connection detected.
-2015-04-07 15:45:59.964 UICatalog_TealiumCompactLibrary[3779:1786968] TEALIUM 4.1.3c: Trying to reconnect (attempt 3 of 3)...
-2015-04-07 15:46:01.082 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: NO INTERNET connection detected.
-2015-04-07 15:46:01.084 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: Saved configuration loaded: true
-2015-04-07 15:46:01.085 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: No new configuration data found from mobile.html. Library will continue running with last saved configuration.
-2015-04-07 15:46:01.086 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: UIAutotracking:             ON (ignoring)
-2015-04-07 15:46:01.086 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: IVar Tracking:              ON (ignoring)
-2015-04-07 15:46:01.087 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: Batch limit:                1
-2015-04-07 15:46:01.088 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: Wifi sending only:          OFF
-2015-04-07 15:46:01.089 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: Battery save feature:       ON
-2015-04-07 15:46:01.089 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: Offline dispatch cache:     -1
-2015-04-07 15:46:01.090 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: Queued dispatch expiration: -1
-2015-04-07 15:46:01.090 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: Mobile Companion:           ON (ignoring)
-2015-04-07 15:46:01.090 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: Initialized.
-2015-04-07 15:46:01.091 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: App Launch detected.
-2015-04-07 15:46:01.154 UICatalog_TealiumCompactLibrary[3779:1786967] TEALIUM 4.1.3c: Queued auto link dispatch for TealiumLifecycle : launch : 2015-04-07T15:46:01. 1 dispatch queued.
+2015-05-28 10:08:12.522 UICatalog_TealiumCompactLibrary[1214:1725071] TEALIUM 4.1.8c: Initializing...
+2015-05-28 10:08:12.785 UICatalog_TealiumCompactLibrary[1214:1725071] TEALIUM 4.1.8c: Adding new command: _push
+2015-05-28 10:08:12.785 UICatalog_TealiumCompactLibrary[1214:1725071] TEALIUM 4.1.8c: Adding new command: _http
+2015-05-28 10:08:12.794 UICatalog_TealiumCompactLibrary[1214:1725071] TEALIUM 4.1.8c: Network is not available.
+2015-05-28 10:08:12.795 UICatalog_TealiumCompactLibrary[1214:1725071] TEALIUM 4.1.8c: App Launch detected.
+2015-05-28 10:08:12.851 UICatalog_TealiumCompactLibrary[1214:1725071] TEALIUM 4.1.8c: Queued auto link dispatch for TealiumLifecycle : launch : 2015-05-28T10:08:12. 1 dispatch queued.
+2015-05-28 10:08:12.885 UICatalog_TealiumCompactLibrary[1214:1725071] TEALIUM 4.1.8c: NO INTERNET connection detected.
+2015-05-28 10:08:12.885 UICatalog_TealiumCompactLibrary[1214:1725071] TEALIUM 4.1.8c: Trying to reconnect (attempt 1 of 3)...
+2015-05-28 10:08:13.959 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: NO INTERNET connection detected.
+2015-05-28 10:08:13.960 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: Trying to reconnect (attempt 2 of 3)...
+2015-05-28 10:08:14.975 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: NO INTERNET connection detected.
+2015-05-28 10:08:14.976 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: Trying to reconnect (attempt 3 of 3)...
+2015-05-28 10:08:15.991 UICatalog_TealiumCompactLibrary[1214:1725067] TEALIUM 4.1.8c: NO INTERNET connection detected.
+2015-05-28 10:08:15.992 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: Saved configuration loaded: true
+2015-05-28 10:08:15.992 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: No new configuration data found from mobile.html. Library will continue running with last saved configuration.
+2015-05-28 10:08:15.993 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: UIAutotracking:             ON (ignoring)
+2015-05-28 10:08:15.993 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: IVar Tracking:              ON (ignoring)
+2015-05-28 10:08:15.993 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: Batch limit:                1
+2015-05-28 10:08:15.994 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: Wifi sending only:          OFF
+2015-05-28 10:08:15.994 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: Battery save feature:       ON
+2015-05-28 10:08:15.996 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: Offline dispatch cache:     -1
+2015-05-28 10:08:15.996 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: Queued dispatch expiration: -1
+2015-05-28 10:08:15.997 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: Mobile Companion:           ON (ignoring)
+2015-05-28 10:08:15.997 UICatalog_TealiumCompactLibrary[1214:1725072] TEALIUM 4.1.8c: Initialized.
 ```
 
 ####6. Dispatch Verification
@@ -263,6 +265,7 @@ Questions or comments?
 - 3.1   Import header renamed to ``<TealiumLibrary/Tealium.h>``
  
 ####Recent Code Updates
+- 4.1.8 Fixed potential symbol conflicts with reachability constants
 - 4.1.7 Fixed small memory leak in network reachability manager
 - 4.1.7 UIDevice information access now threadsafe
 - 4.1.6 Fixed issues preventing crash track calls from processing
