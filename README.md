@@ -1,4 +1,4 @@
-Tealium iOS Library - 4.1.9 & 4.1.9c
+Tealium iOS Library - 4.1.10 & 4.1.10c
 ====================================
 
 **********************
@@ -265,6 +265,8 @@ Questions or comments?
 - 3.1   Import header renamed to ``<TealiumLibrary/Tealium.h>``
  
 ####Recent Code Updates
+- 4.1.10 Re-enabled interface orientation datasource
+- 4.1.10 Reduced re-try timer for adding remote commands via the [add remote command method](../../wiki/api-4.x#addremotecommandiddescriptiontargetqueueblock)
 - 4.1.9 Improved exception handling in unarchiving serialized crash logs
 - 4.1.8 Fixed potential symbol conflicts with reachability constants
 - 4.1.7 Fixed small memory leak in network reachability manager
