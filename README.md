@@ -1,4 +1,4 @@
-Tealium iOS Library - 4.1.10 & 4.1.10c
+Tealium iOS Library - 4.1.11 & 4.1.11c
 ====================================
 
 **********************
@@ -265,6 +265,8 @@ Questions or comments?
 - 3.1   Import header renamed to ``<TealiumLibrary/Tealium.h>``
  
 ####Recent Code Updates
+- 4.1.11 Tag Bridge remote command now always send a response
+- 4.1.11 Added malloc NULL protection to machine name lookup
 - 4.1.10 Re-enabled interface orientation datasource
 - 4.1.10 Reduced re-try timer for adding remote commands via the [add remote command method](../../wiki/api-4.x#addremotecommandiddescriptiontargetqueueblock)
 - 4.1.9 Improved exception handling in unarchiving serialized crash logs
