@@ -29,11 +29,11 @@ The remainder of this document provides quick install instructions for implement
 
 ###Requirements###
 
-- [XCode (6.0+ recommended)](https://developer.apple.com/xcode/downloads/)
+- [Xcode (6.0+ recommended)](https://developer.apple.com/xcode/downloads/)
 - Minimum target iOS Version 5.1.1+
 
 ###Quick Start###
-This guide presumes you have already created an [iOS app using XCode](https://developer.apple.com/library/iOS/referencelibrary/GettingStarted/RoadMapiOS/index.html).  Follow the below steps to add [Tealium's Compact library](../../wiki/compact-vs-full#compact) to it. Discussion on which version is ultimately best for you can be found in the [What Next](#what-next) section.
+This guide presumes you have already created an [iOS app using Xcode](https://developer.apple.com/library/iOS/referencelibrary/GettingStarted/RoadMapiOS/index.html).  Follow the below steps to add [Tealium's Compact library](../../wiki/compact-vs-full#compact) to it. Discussion on which version is ultimately best for you can be found in the [What Next](#what-next) section.
 
 ####1. Clone/Copy Library####
 onto your dev machine by clicking on the *Clone to Desktop* or *Download ZIP* buttons on the main repo page.
@@ -42,13 +42,13 @@ onto your dev machine by clicking on the *Clone to Desktop* or *Download ZIP* bu
 
 ####2. Add To Project 
 
-2a. From the *ios-library/TealiumCompact* folder, drag & drop the *TealiumLibrary.framework*(/tealiumcompact/tealiumlibrary.framework) into your XCode project's Navigation window.
+2a. From the *ios-library/TealiumCompact* folder, drag & drop the *TealiumLibrary.framework*(/tealiumcompact/tealiumlibrary.framework) into your Xcode project's Navigation window.
 
 ![](../../wiki/images/iOS_DragDrop.png)
 
 2b. Click "Finish" in the resulting dialog box.
 
-![](../../wiki/images/iOS_XCodeCopyLinkBox.png)
+![](../../wiki/images/iOS_XcodeCopyLinkBox.png)
 
 ####3. Link Frameworks
 [Link the following Apple frameworks](https://developer.apple.com/library/ios/recipes/xcode_help-project_editor/Articles/AddingaLibrarytoaTarget.html) to your project:
@@ -58,7 +58,7 @@ onto your dev machine by clicking on the *Clone to Desktop* or *Download ZIP* bu
 
 Your project-target-General tab should now look similar to:
 
-![](../../wiki/images/iOSc_XCodeProjectGeneral.png)
+![](../../wiki/images/iOSc_XcodeProjectGeneral.png)
 
 ####4. Add Linker Flags
 Add the "-ObjC" linker flag to your project's Target-Build Settings:
