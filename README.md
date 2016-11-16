@@ -2,7 +2,7 @@ Tealium iOS Library - 4.1.11 & 4.1.11c
 ====================================
 
 **********************
-![](../../wiki/images/warning_30.png) This library has been replaced by version 5.x [iOS](https://github.com/tealium/tealium-ios) and [tvOS](https://github.com/tealium/tealium-tvos) repositories. This version can still be used with Tealium services but no further development or bug fixes planned.
+<img align="left" src="https://res.cloudinary.com/dfpz40r7j/image/upload/v1479312678/warning-icon-60_yd8bwd.png"> This library has been replaced by version 5.x [iOS](https://github.com/tealium/tealium-ios) and [tvOS](https://github.com/tealium/tealium-tvos) repositories. This version can still be used with Tealium services but no further development or bug fixes planned.
 **********************
 
 ###Brief###
