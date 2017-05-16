@@ -22,7 +22,16 @@
     splitViewController.delegate = self;
     splitViewController.preferredDisplayMode = UISplitViewControllerDisplayModeAllVisible;
 
-    [Tealium initSharedInstance:@"tealiummobile" profile:@"demo" target:@"dev"];
+    [Tealium initSharedInstance:@"hyatt" profile:@"mobileappios" target:@"dev"];
+    
+    [Tealium addRemoteCommandId:@"testCommand"
+                    description:@"Remote code trigger test"
+                    targetQueue:dispatch_get_main_queue()
+                          block:^(TealiumRemoteCommandResponse *response) {
+                              
+                              NSLog(@"Tag Bridge testCommand triggered! Testing123");
+                              
+                          }];
     
     return YES;
 }
